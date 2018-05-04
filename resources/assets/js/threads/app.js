@@ -13,7 +13,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('../replies/components/ExampleComponent.vue'));
+Vue.component('threads', require('./components/Threads'));
 
 const app = new Vue({
     el: '#app'
